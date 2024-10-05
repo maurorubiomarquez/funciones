@@ -1,0 +1,34 @@
+
+/* Contenedor con Flexbox */
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo básico para los divs */
+.color-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+/* Colores iniciales para cada div */
+.azul { background-color: blue; }
+.rojo { background-color: red; }
+.verde { background-color: green; }
+.amarillo { background-color: yellow; }
+
+/*estilos para los eventos*/
+
+.blanco { background-color: white; }
+
+.morado { background-color: purple; }
+.gris { background-color: gray; }
+.cafe { background-color: brown; }
+
+/* Se reutilizan las reglas de Flexbox para el contenedor */
+
